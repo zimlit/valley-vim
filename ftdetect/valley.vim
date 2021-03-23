@@ -1,1 +1,1 @@
-au BufNewFile,BufRead *.val setfiletype=valley
+autocmd BufRead,BufNewFile *.val setfiletype valley
