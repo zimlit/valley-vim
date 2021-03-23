@@ -11,4 +11,35 @@ highlight link valleyKeyword Keyword
 syntax match valleyComment "\v#.*$"
 highlight link valleyComment Comment
 
+syntax match valleyOperator "\v\+"
+syntax match valleyOperator "\v-"
+syntax match valleyOperator "\v\*"
+syntax match valleyOperator "\v/"
+syntax match valleyOperator "\v\+\="
+syntax match valleyOperator "\v-\="
+syntax match valleyOperator "\v\*\="
+syntax match valleyOperator "\v/"
+syntax match valleyOperator "\v\+\+"
+syntax match valleyOperator "\v--"
+
+syntax match valleyOperator "\v\<"
+syntax match valleyOperator "\v\>"
+syntax match valleyOperator "\v\="
+syntax match valleyOperator "\v\>\="
+syntax match valleyOperator "\v\<\="
+syntax match valleyOperator "\v\=\="
+syntax match valleyOperator "\v!\="
+
+syntax match valleyOperator "\v\|"
+syntax match valleyOperator "\v\&"
+syntax match valleyOperator "\v\~"
+
+syntax match valleyOperator "\v\|\|"
+syntax match valleyOperator "\v\&\&"
+syntax match valleyOperator "\v!"
+
+syntax match valleyOperator "\v\."
+syntax match valleyOperator "\v\@"
+highlight link valleyOperator Operator
+
 let b:current_syntax = "valley"
