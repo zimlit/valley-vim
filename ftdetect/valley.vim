@@ -1,1 +1,1 @@
-au BufNewFile,BufRead *.val set filetype=valley
+au BufNewFile,BufRead *.val setfiletype=valley
